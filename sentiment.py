@@ -50,7 +50,7 @@ def coffee():
 		final_results.append([name, coffee_change])
 	final_results_sorted = sorted(final_results, key=lambda x: x[1], reverse=True)
 	print(final_results_sorted)
-	return pd.DataFrame(final_results_sorted, columns=['Name', 'cofee'])
+	return pd.DataFrame(final_results_sorted, columns=['Name', 'coffee'])
 #coffee()
 
 
